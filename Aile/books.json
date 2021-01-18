@@ -5,9 +5,19 @@
             "제 1장",
             "제 2장",
             "제 3장",
-            "제 4장"
+            "제 4장",
+            "제 5장",
+            "제 6장",
+            "제 7장",
+            "제 8장",
+            "제 9장"
         ],
         "books": {
+            "책닫기": {
+                "title": "책 닫기",
+                "text": "손가락 두 개로 화면을 누르면 \n책이 닫아집니다.",
+                "category": 0
+            },
             "이동": {
                 "title": "이동",
                 "text": "길을 따라 이동하거나, \n문과 같은 특정 장소로 이동하면 \n자동으로 다른 맵으로 전송됩니다.",
@@ -20,7 +30,7 @@
             },
             "주무기": {
                 "title": "주무기",
-                "text": "직업별로 착용가능한 무기의 제한이 있습니다. \n그렇다고 꼭 한 직업에 한 무기를 사용할 \n수 있는 것은 아닙니다. \n무기 제한은 스킬에도 적용됩니다. \n특정 스킬은 특정 무기를 들고서만 \n사용할 수 있습니다.",
+                "text": "직업별로 착용가능한 무기의 제한이 있습니다. \n그렇다고 꼭 한 직업에 한 종류의 무기만을 \n사용할 수 있는 것은 아닙니다.",
                 "category": 0
             },
             "보조장비&악세서리": {
@@ -35,7 +45,7 @@
             }, 
             "저장": {
                 "title": "저장",
-                "text": "메뉴를 열어 저장을 할 수 있습니다. 필드에서는 저장을 하지 못하며, 마을이나 던전의 특정 위치에서만 저장할 수 있습니다.",
+                "text": "메뉴를 열어 저장을 할 수 있습니다. \n필드에서는 저장을 하지 못하며, \n마을이나 던전의 특정 위치에서만 저장할 수 있습니다.",
                 "category": 0   
             }, 
             "직업": {
@@ -98,45 +108,45 @@
                 "text": "이계로 통하는 문처럼 생긴 \n포탈을 지나 도착한 곳은 \n타락한 요정 왕국이었다. \n요정들은 본래의 모습을 잃고 \n폭주하고 있었다. \n우리는 힘을 합쳐 \n던전의 마지막 방까지 도달할 수 \n있었지만, 그곳에는 아무것도 없었다. \n다시 길을 찾기 위해 돌아가려던 순간 \n뒤에서 서늘한 기운이 느껴졌다. \n가디언 디나시가 매복하고 있었던 것이다. \n지금까지의 요정들과는 다르게 \n우리 수준을 뛰어넘는 강함을 가지고 있었지만 \n결국 우리가 승리했다. \n광부에게 돌아가자.",
                 "category": 3
             },
-            "은빛의영역": {
-                "title": "은빛의 영역",
+            "미푀르유": {
+                "title": "미푀르유",
                 "text": "광부들은 달의 거울에 대해서 아는 것이 \n전혀 없었다. \n대신 미푀르유라는 거대한 성의 \n위치를 알려주었다. \n그곳에서 대마도사를 볼 수 있을거라나. \n어쩔 수 없이 우리는 미푀르유로 \n발걸음을 옮기기로 했다.",
                 "category": 3
             },
-            "SceneCommands": {
-                "title": "Scene Commands",
-                "text": "OpenBookMenu\n - Triggers the book menu to be displayed.\nReadBook key <true|false>\n - Replace key with the book tag, if using a\nJSON file as datasource, or the  book title if\nusing Plugin Manager. If the key contains\nblank spaces between words, you need to remove \nit in the plugin command call. \nThis will mark the book as read (if it isn't\nalready) and display the detached book window \nwith the book contents.\nOptionally, you can add a second argument that \ntells if the book will be marked as read or not \n(true or false). If the argument is left blank, \nthe book is marked as read.\nExamples:\n ReadBook bookJsonTag\n ReadBook \"PluginManagerTitle\"\n ReadBook bookJsonTag false",
-                "category": 2
-            },
-            "LibraryCommands": {
-                "title": "Library Commands",
-                "text": "LibraryData Menu Hide\nLibraryData Menu Show\n - Use this commands to hide / show the book\n menu from the main menu list.\n\nLibraryData Menu Enable\nLibraryData Menu Disable\n - Use this commands to enable / disable the\n book menu at the main menu list.\n\nLibraryData Learn Book key\nLibraryData Forget Book key\n - Use this commands to make the player learn /\n forget books without opening the detached book\n window. Replace 'key' with the book tag, if\n using a JSON File as datasource, or the book\n title if using the Plugin Manager. If the key\n contains blank spaces between words surround\n it with double quotes.\n\nLibraryData Learn Books key1 key2 key3 ... keyN\nLibraryData Forget Books key1 key2 key3 ... keyN\n - Similar to the previous command, but this\n can be used to make the player learn / forget\n many books at once.\n\nLibraryData Learn Category categoryName\nLibraryData Forget Category categoryName\n - Use this commands to make the player learn /\n forget all books from a specific category.\n Replace 'categoryName' with the category name\n (use double quotes if it contains blank spaces)\n\nLibraryData ShowCategories on\nLibraryData ShowCategories off\n - Use this to show / hide categories in the\n list window menu.\n\nLibraryData UnreadBooks hide\nLibraryData UnreadBooks show\n - Use this to hide / show books not read by\n the player in the book list window.\n\nLibraryData TitleBar hide\nLibraryData TitleBar show\n - Use this to hide / show the title bar on the detached\n book window.",
-                "category": 2
-            },
-            "WhatIsIt?": {
-                "title": "What Is It?",
-                "text": "\\C[1]Lorem Ipsum\\C[0] is simply dummy text of the \nprinting and typesetting industry. Lorem Ipsum \nhas been the industry's standard dummy text ever \nsince the 1500s, when an unknown printer took a \ngalley of type and scrambled it to make a type \nspecimen book. It has survived not only five \ncenturies, but also the leap into electronic \ntypesetting, remaining essentially unchanged. It \nwas popularised in the 1960s with the release of \nLetraset sheets containing Lorem Ipsum passages, \nand more recently with desktop publishing \nsoftware like Aldus PageMaker including versions \nof Lorem Ipsum.",
+            "미푀르유의수용소": {
+                "title": "미푀르유의 수용소",
+                "text": "대마도사를 찾던 우리는 \n미푀르유 왕궁까지 가게 되었다. \n미푀르유의 여왕은 젊고 아름다웠다. \n그녀는 자신이 대마도사의 위치를 \n알려줄 이유가 존재하지 않는다고 하면서 \n명분을 만들어오라 하였다. \n바로 수용소에 봉인된 포보르를 잡아오는 것이었다.",
                 "category": 3
             },
-            "FromWhere?": {
-                "title": "From Where?",
-                "text": "Contrary to popular belief, Lorem Ipsum is not \nsimply random text. It has roots in a piece of \nclassical Latin literature from 45 BC, making it \nover 2000 years old. Richard McClintock, a Latin \nprofessor at Hampden-Sydney College in Virginia, \nlooked up one of the more obscure Latin words, \nconsectetur, from a Lorem Ipsum passage, and \ngoing through the cites of the word in classical \nliterature, discovered the undoubtable source. \nLorem Ipsum comes from sections 1.10.32 and \n1.10.33 of \"de Finibus Bonorum et Malorum\" (The \nExtremes of Good and Evil) by Cicero, written in \n45 BC. This book is a treatise on the theory of \nethics, very popular during the Renaissance. The \nfirst line of Lorem Ipsum, \"Lorem ipsum dolor \nsit amet..\", comes from a line in section \n1.10.32.\n\nThe standard chunk of Lorem Ipsum \nused since the 1500s is reproduced below for \nthose interested. Sections 1.10.32 and 1.10.33 \nfrom \"de Finibus Bonorum et Malorum\" by Cicero \nare also reproduced in their exact original form, \naccompanied by English versions from the 1914 \ntranslation by H. Rackham.",
+            "수용소의악마": {
+                "title": "수용소의 악마",
+                "text": "수용소의 끝에는 이상한 석상이 세워져있었다. \n더 이상 길이 없는 것을 확인하고 \n석상을 공격하였다. \n석상 안에는 언노운이라는 포보르가 \n봉인되어 있었고, 매우 강력했다. \n힘들게 언노운을 처치하였지만 \n다시 봉인되어 석상으로 남게 되었다. \n포보르들은 어떻게 해도 소멸시킬 수 \n없는 것일까. \n아무래도 이 여정의 끝인 \n포보르의 왕을 처단해야 \n진실에 도달할 것 같다. \n일단 여왕에게 돌아가자.",
                 "category": 3
             },
-            "WhyUseIt?": {
-                "title": "Why Use It?",
-                "text": "It is a long established fact that a reader will \nbe distracted by the readable content of a page \nwhen looking at its layout. The point of using \nLorem Ipsum is that it has a more-or-less normal \ndistribution of letters, as opposed to using \n'Content here, content here', making it look like \nreadable English. Many desktop publishing \npackages and web page editors now use Lorem Ipsum \nas their default model text, and a search for \n'lorem ipsum' will uncover many web sites still \nin their infancy. Various versions have evolved \nover the years, sometimes by accident, sometimes \non purpose (injected humour and the like).",
+            "미푀르유의대마도사": {
+                "title": "미푀르유의 대마도사",
+                "text": "언노운을 처치한 보상으로 \n대마도사의 위치를 알게 될 줄 알았는데, \n여왕은 알려주지 않았다. \n대신 대마도사가 포션 상점을 많이 들른다고 하니 \n포션 상점이나 가보라고 한다. \n한 나라의 왕으로서 너무 무책임한 것 같다.",
                 "category": 3
             },
-            "WhereCanIGetIt?": {
-                "title": "Where Can I Get it?",
-                "text": "There are many variations of passages of Lorem \nIpsum available, but the majority have suffered \nalteration in some form, by injected humour, or \nrandomised words which don't look even slightly \nbelievable. If you are going to use a passage of \nLorem Ipsum, you need to be sure there isn't \nanything embarrassing hidden in the middle of \ntext. All the Lorem Ipsum generators on the \nInternet tend to repeat predefined chunks as \nnecessary, making this the first true generator \non the Internet. It uses a dictionary of over 200 \nLatin words, combined with a handful of model \nsentence structures, to generate Lorem Ipsum \nwhich looks reasonable. The generated Lorem Ipsum \nis therefore always free from repetition, \ninjected humour, or non-characteristic words \netc.\n\n\\C[1]Reference:\\C[8] https://www.lipsum.com/\\C[0]",
+            "달의거울을찾아서": {
+                "title": "달의 거울을 찾아서",
+                "text": "대마도사에게 부탁하여 달의 거울에 \n대한 정보를 입수하였다. \n'카사르', '파르홀론', '네메드', \n'피르 볼드', '투어허 데 다넌'이라는 \n국가들이 있었고 그 중 '피르 볼그' 시대에 \n존재했던 보물이라는 것 같은데 \n사실 잘 모르겠다. \n대마도사는 생각보다 친절했다. \n우리를 위해 직접 따라가준다고 하다니. \n달의 거울이 있는 제단은 \n미푀르유 근처라고 하니 \n우선 준비를 마치고 나가보자.",
                 "category": 3
             },
-            "Sample": {
-                "title": "Sample",
-                "text": "Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Duis vitae justo tincidunt, \nvenenatis nisi et, sollicitudin neque. Morbi \nnec tortor lacus. Etiam ornare, nunc nec \nfringilla tempus, est nunc congue est, ut \nmaximus ipsum nibh interdum ex. Nunc hendrerit \nnibh eget nibh suscipit lacinia. Nullam iaculis \nmauris tortor, sit amet semper turpis consequat \nnon. Nam id suscipit lacus. Donec tempus \niaculis placerat.\n\nEtiam interdum facilisis est id aliquam. \nPhasellus at quam ornare, ornare metus sit \namet, euismod turpis. Quisque condimentum sem \nquis pellentesque aliquam. Proin auctor \nhendrerit iaculis. Phasellus vitae magna \ncongue, aliquet turpis a, faucibus diam. Proin \npharetra ultricies gravida. Ut fringilla, ipsum \nut pretium porttitor, leo est congue lectus, \nvitae finibus elit neque non massa. Vivamus \nfaucibus, orci eu viverra mattis, dui velit \nvulputate nisl, quis consequat dolor odio ut \norci. Curabitur erat dolor, posuere sed luctus \nvitae, dapibus ac orci. Vestibulum quis \nmalesuada est. Maecenas semper posuere \nconsequat. Maecenas euismod accumsan ultricies. \nNullam turpis erat, scelerisque vel dapibus in, \ngravida sit amet ipsum. Donec varius neque ac \nnunc fermentum ultricies. Ut quis gravida elit.\n\nCras imperdiet mi sit amet ligula pellentesque \ncommodo. Aliquam sagittis, diam ac maximus \naliquam, ligula massa tristique quam, vitae \ncondimentum felis purus sed lacus. Vivamus \niaculis, ex quis bibendum volutpat, turpis \nnulla facilisis libero, sed posuere massa \nmauris at massa. Praesent molestie pulvinar \ndolor quis tristique. Sed faucibus odio euismod \nest pellentesque scelerisque. Etiam bibendum, \nerat non ultricies vestibulum, dolor turpis \nconsectetur dolor, eu pulvinar felis ipsum at \ndui. Mauris id semper justo, eu semper nisi. In \nimperdiet non libero in posuere. Nam pulvinar \nsagittis orci a condimentum. Phasellus \nhendrerit, dui a interdum dignissim, ante purus \nmolestie erat, at tincidunt metus elit et mi. \nCurabitur eget turpis tortor. Fusce sed viverra \nelit, nec porttitor dui. Etiam facilisis \ntincidunt erat a aliquam. Ut vel consequat \nvelit, sed pulvinar turpis. Morbi at semper \npurus. Maecenas ac neque sem.",
+            "원념": {
+                "title": "원념",
+                "text": "제단에는 언노운 때와 마찬가지로 \n석상이 놓여져있었다. \n대마도사는 우리를 석상까지 인도해주고 \n유유히 떠났다.  \n석상에는 시체들의 산이 봉인되어 있었고 \n그 안에는 원념이 잠들어 있었다. \n보스를 연속으로 사냥하게 될 줄은 몰랐다. \n앞으로는 전투를 할 때 \n더욱 대비를 해야할 것 같다. \n아무튼 달의 거울을 얻었으니 \n티르의 등대로 돌아가자.",
                 "category": 3
+            },
+            "달의거울": {
+                "title": "달의 거울",
+                "text": "티르의 등대에 도달하여 \n달의 거울을 설치하였다. \n거울은 햇빛을 반사시켜 서쪽을 가리켰고, \n서쪽에는 아란모어 섬이 있다고 한다. \n아란모어 섬은 매우 추워서 사계절이 겨울이라고 한다. \n때문에 그곳으로 가는 배가 \n존재하지 않는다고 한다. \n결국 아란모어로 가기 위해선 \n공간 마법사가 필요할 것 같다. \n미푀르유의 대마도사에게 가서 \n공간 마법사에 대해 물어보자.",
+                "category": 3
+            },
+            "아란모어": {
+                "title": "아란모어",
+                "text": "공간 마법사를 소개받기 위한 목적으로 \n대마도사에게 간 것이었는데, \n그녀가 공간 마법을 사용해 \n줄 수 있다고 하였다. \n덕분에 우리는 아란모어에 무사히 도착할 수 있었다. \n이곳은 너무나도 춥다. \n우선 마을을 찾는 것이 제일 급한 일인 것 같다.",
+                "category": 4
             },
             "Version1.0.0": {
                 "title": "Version 1.0.0",
