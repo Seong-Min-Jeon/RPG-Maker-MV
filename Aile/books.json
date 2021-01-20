@@ -153,19 +153,19 @@
                 "text": "아란모어의 콘노 마을을 헤매던 도중 \n스카디라는 여자를 만났다. \n그녀는 아란모어의 숨겨진 보물을 찾기 위해 \n카루 던전을 토벌하러 왔다고 한다. \n그녀는 카루 던전에 함께 가주는 것을 \n대가로 우리에게 아란모어에 존재하는 \n또다른 등대의 위치를 알려주기로 하였다.",
                 "category": 4
             },
-            "Version1.0.1": {
-                "title": "Version 1.0.1",
-                "text": " - Fixed mouse wheel scrolling by including a\ncustomization to TouchInput._onMouseMove.",
+            "카루던전": {
+                "title": "카루 던전",
+                "text": "스카디와 우리는 카루 던전의 \n마지막 방에 도달하였다. \n카루 던전을 지키는 보스는 크라나흐였는데 \n크라나흐는 '피르 볼그' 시대의 \n다섯 장군 중 하나였다고 한다. \n그가 어째서 카루 던전에 존재하는지는 \n알 수 없었다. \n스카디는 등대가 콘노에서 아래 방향으로 \n쭉 가면 있다고 하였다.",
                 "category": 4
             },
-            "Version1.1.0": {
-                "title": "Version 1.1.0",
-                "text": " - Reorganized all aliases inside an object, to\nmake them easier to track down\n - Included the possibility to customize scene\nbackgrounds with images. The Detached Scene and\nMenu Scene have different configurations, so that\nthey can have different backgrounds if the dev\nwishes",
+            "태양의등대": {
+                "title": "태양의 등대",
+                "text": "스카디가 알려준 위치에는 \n그저 평범한 등대가 4개 있었다. \n우리는 이 등대들이 \n우리가 찾을 등대가 아니라고 생각했다. \n그러자 스카디는 태양의 등대라는 등대가 \n아란모어에서 유명하다고 말했다. \n너무 유명한 등대라서 \n우리가 태양의 등대를 모를 것이라고 \n생각하지 않았다고 한다. \n태양의 등대는 마을에서 갈 수 있다고 하니 \n마을로 이동하자.",
                 "category": 4
             },
-            "Version1.2.0": {
-                "title": "Version 1.2.0",
-                "text": " - Included a new feature allowing books to have\ncustom background images that override the \ndefault ones. It comes with options to use the\ncustom images on the detached scene only, menu\nscene only, or both. The image can also be set\nto cover only the text window or title + text \nwindows",
+            "운석": {
+                "title": "운석",
+                "text": "태양의 등대 1층에는 누아다의 관과 \n여러 영웅들의 석상이 있었다. \n그리고 2층에는 매우 놀라운 것이 있었다. \n이전까지 우리가 보지 못하였던 것들, \n등대의 관리인인 프란시스는 \n그것이 운석의 파편이라고 하였다. \n우주에는 도대체 무엇이 있는 것일까? \n프란시스는 우리가 필요하다면 \n2층을 언제든지 개방해줄 수 있다고 하였다. \n그리고 프란시스는 우리에게 작은 운석 덩어리와 \n철광석을 주었다. \n우리는 이 운석 덩어리와 등대 2층의 물건들이 \n희망이라고 생각하였다. \n그러고 나서 어떻게 다시 돌아가야할지 \n고민하던 찰나에 크리미 대마도사가 와주었다. \n그녀는 우리를 다시 미푀르유로 전이시켜 주었다. \n우리는 크리미에게 운석 덩어리를 보여주며 \n무엇인지 알 수 있는지 물어보았다. \n하지만 그녀도 그 물체에 대해서는 아는 것이 없었고, \n우리는 어쩔 수 없이 에일 땅을 \n더 탐험해보기로 한다. \n미푀르유를 벗어나 동북쪽으로 가보자.",
                 "category": 4
             },
             "Version1.3.0": {
