@@ -123,6 +123,6 @@ null,
 {"id":121,"expanded":false,"name":"고대의 탑 정상","order":121,"parentId":120,"scrollX":832,"scrollY":640},
 {"id":122,"expanded":false,"name":"베아그 근처","order":122,"parentId":103,"scrollX":1122,"scrollY":795},
 {"id":123,"expanded":false,"name":"해안 동굴","order":123,"parentId":103,"scrollX":1894,"scrollY":2085},
-{"id":124,"expanded":false,"name":"곡창지대","order":124,"parentId":103,"scrollX":887,"scrollY":795.5},
+{"id":124,"expanded":false,"name":"곡창지대","order":124,"parentId":103,"scrollX":1122,"scrollY":795},
 {"id":125,"expanded":false,"name":"나무가 들어선 숲길","order":125,"parentId":103,"scrollX":561,"scrollY":397.5}
 ]
