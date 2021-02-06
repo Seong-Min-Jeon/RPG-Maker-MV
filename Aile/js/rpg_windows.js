@@ -2349,12 +2349,12 @@ Window_EquipCommand.prototype.windowWidth = function() {
 };
 
 Window_EquipCommand.prototype.maxCols = function() {
-    return 3;
+    return 2;
 };
 
 Window_EquipCommand.prototype.makeCommandList = function() {
     this.addCommand(TextManager.equip2,   'equip');
-    this.addCommand(TextManager.optimize, 'optimize');
+//    this.addCommand(undefined, '       ');
     this.addCommand(TextManager.clear,    'clear');
 };
 
