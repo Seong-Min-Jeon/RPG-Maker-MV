@@ -756,7 +756,7 @@ Yanfly.Equip.Window_EquipCommand_makeCommandList =
 Window_EquipCommand.prototype.makeCommandList = function() {
     Yanfly.Equip.Window_EquipCommand_makeCommandList.call(this);
     this.addCustomCommand();
-    this.addFinishCommand();
+    // this.addFinishCommand();
 };
 
 Window_EquipCommand.prototype.addCustomCommand = function() {
